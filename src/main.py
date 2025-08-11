@@ -59,7 +59,7 @@ PLOTS_DIR = "plots"
 N_TRIALS = 20  # Remember to make 20  # OPTUNA search space
 BATCH_SIZE = 64
 MODEL_DIR = "saved_model"
-MAIN_PATH = "riyad_full_csv_24.713552_46.675296_fixed_23_180_PT15M.csv"
+
 MANUAL_PARAMS = {
     "learning_rate": 0.0001, "filters1": 64, "filters2": 64, "lstm_units1": 128, "lstm_units2": 64,
     "dropout1": 0.3, "dropout2": 0.2, "dense_units": 32, "wavelet": "db4", "wavelet_level": 2,
